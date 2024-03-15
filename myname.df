@@ -1,0 +1,48 @@
+: 
+	This program was written in Deadfish to test my 
+	deadfish interpriter (dfi)
+
+	It will print "Nicolas Marzagao\n"
+
+INSTRUCTIONS                                       COMMENTS 
+:
+
+iiiiiiiisiiiiiiiiiiiiii            		           : 78 or 'N' :
+p    										       : print as char :
+iiiiiiiiiiiiiiiiiiiiiiiiiii 					   : 105 or 'i' :
+p    											   : print as char :
+dddddd 										       : 99 or 'c' :
+p                                                  : print as char :
+iiiiiiiiiiii 									   : 111 or 'o' : 
+p                                                  : print as char :
+ddd 											   : 108 or 'l':
+p                                                  : print as char :
+ddddddddddd										   : 97 or 'a' :
+p 												   : print as char :
+iiiiiiiiiiiiiiiiii 								   : 115 or 's' :
+p  											 	   : print as char :
+
+dddddddddddddddddddddddddddddddddddddddddddddddddd : 50 :
+ddddddddddddddddddddddddddddddddd                  : 32 or ' ' :
+p
+
+iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii      : 77 or 'M' :
+p
+iiiiiiiiiiiiiiiiiiii                               : 97 or 'a' :
+p
+iiiiiiiiiiiiiiiii                                  : 114 or 'r' :
+p
+iiiiiiii                                           : 122 or 'z' :
+p
+ddddddddddddddddddddddddd                          : 97 or 'a' :
+p
+iiiiii 											   : 103 or 'g' :
+p
+dddddd                                             : 97 or 'a' :
+p
+iiiiiiiiiiiiii                                     : 111 or 'o' :
+p
+dddddddddddddddddddddddddddddddddddddddddddddddddd : 50 :
+dddddddddddddddddddddddddddddddddddddddddddddddddd : 50 :
+d                                                  : 10 or '\n':
+p

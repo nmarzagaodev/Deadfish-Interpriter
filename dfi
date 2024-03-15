@@ -1,0 +1,47 @@
+#!/usr/bin/env python3
+import sys
+
+def get_file(path: str) -> str:
+    with open(path, 'r') as f:
+        source = f.read()
+
+    return source
+
+def parce_source(source: str) -> str: 
+    comment_flag = False
+    clean_source = [] 
+    valid_commands = ['i', 'd', 's', 'o', 'p'] 
+
+    for char in source:
+        if char == ":":
+            comment_flag = not comment_flag 
+        elif not comment_flag and char in valid_commands:
+            clean_source.append(char)
+
+    return ''.join(clean_source)
+
+def interpret_source(clean_source: str):
+    accumulator = 0
+    for char in clean_source:
+        if accumulator < 0 or accumulator == 256:
+            accumulator = 0
+        if char == 's':
+            accumulator *= accumulator
+        elif char == 'i':
+            accumulator += 1
+        elif char == 'd':
+            accumulator -= 1
+        elif char == 'o':
+            print(accumulator)
+        elif char == 'p': # print as a char
+            print(chr(accumulator), end='')
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        source = get_file(sys.argv[1])
+        clean_source = parce_source(source)
+        interpret_source(clean_source)
+    else:
+        print("Error: no input file!")
+        print("Usage: dfi <input_file_path>")
+        
