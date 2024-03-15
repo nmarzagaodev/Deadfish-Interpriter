@@ -7,20 +7,20 @@
 INSTRUCTIONS                                       COMMENTS 
 :
 
-iiiiiiiisiiiiiiiiiiiiii            		           : 78 or 'N' :
-p    										       : print as char :
-iiiiiiiiiiiiiiiiiiiiiiiiiii 					   : 105 or 'i' :
-p    											   : print as char :
-dddddd 										       : 99 or 'c' :
+iiiiiiiisiiiiiiiiiiiiii            		   : 78 or 'N' :
+p    		                                   : print as char :
+iiiiiiiiiiiiiiiiiiiiiiiiiii 		           : 105 or 'i' :
+p    						   : print as char :
+dddddd 						   : 99 or 'c' :
 p                                                  : print as char :
-iiiiiiiiiiii 									   : 111 or 'o' : 
+iiiiiiiiiiii 				           : 111 or 'o' : 
 p                                                  : print as char :
-ddd 											   : 108 or 'l':
+ddd 						   : 108 or 'l':
 p                                                  : print as char :
-ddddddddddd										   : 97 or 'a' :
-p 												   : print as char :
-iiiiiiiiiiiiiiiiii 								   : 115 or 's' :
-p  											 	   : print as char :
+ddddddddddd					   : 97 or 'a' :
+p 						   : print as char :
+iiiiiiiiiiiiiiiiii 				   : 115 or 's' :
+p  						   : print as char :
 
 dddddddddddddddddddddddddddddddddddddddddddddddddd : 50 :
 ddddddddddddddddddddddddddddddddd                  : 32 or ' ' :
@@ -36,7 +36,7 @@ iiiiiiii                                           : 122 or 'z' :
 p
 ddddddddddddddddddddddddd                          : 97 or 'a' :
 p
-iiiiii 											   : 103 or 'g' :
+iiiiii 						   : 103 or 'g' :
 p
 dddddd                                             : 97 or 'a' :
 p
